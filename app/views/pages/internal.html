@@ -1,0 +1,119 @@
+@include('../layouts//head.html')
+<div class="wrapper">
+    @include('../layouts/header.html')
+    <main class="background-light-grey internal">
+        <!-- Begin banner -->
+        <section class="banner" style="background:url(images/b18.png) center center / cover">
+            <div class="d-flex align-items-center banner__bg mask">
+                <div class="container">
+                    <h1 class="text-center banner__title">TVA GROUP nội bộ</h1>
+                </div>
+            </div>
+        </section>
+        <!-- End banner -->
+
+        <div class="container mt-4 pt-2">
+            <div class="row s-r-10">
+                <div class="col-lg-8 col-xl-9 mb-4 pb-3 col-xl-72 s-p-10">
+                    <!-- Begin internal time line -->
+                    <div class="internal-time-line">
+                        @include('../partials/posting.html')
+                        <!-- // -->
+                        @include('../partials/post.html')
+                        <!-- // -->
+                        @include('../partials/post.html')
+                    </div>
+                    <!-- End internal time line -->
+                </div>
+                <div class="col-lg-4 col-xl-3 mb-4 col-xl-28 s-p-10">
+                    <!-- Begin internal bar -->
+                    <div class="internal-bar">
+                        <h2 class="internal-bar__title">
+                            <img src="images/ic_receipt_white_24px.svg" alt="">BIỂU MẪU</h2>
+                        <div class="internal-bar__content">
+                            <div class="mb-2 internal-bar__des">Các biểu mẫu bạn muốn xem</div>
+                            <ul>
+                                <li class="pt-1 pb-1 internal-bar__item-form">
+                                    <a class="d-flex align-items-center pt-2 pb-2" href="#">
+                                        <img class="mr-2" src="images/pdf.svg" alt="">
+                                        <div class="">Channuoigiasuc.pdf</div>
+                                    </a>
+                                </li>
+                                <li class="pt-1 pb-1 internal-bar__item-form">
+                                    <a class="d-flex align-items-center pt-2 pb-2" href="#">
+                                        <img class="mr-2" src="images/pdf.svg" alt="">
+                                        <div class="">Channuoigiasuc.pdf</div>
+                                    </a>
+                                </li>
+                                <li class="pt-1 pb-1 internal-bar__item-form">
+                                    <a class="d-flex align-items-center pt-2 pb-2" href="#">
+                                        <img class="mr-2" src="images/pdf.svg" alt="">
+                                        <div class="">Channuoigiasuc.pdf</div>
+                                    </a>
+                                </li>
+                                <li class="pt-1 pb-1 internal-bar__item-form">
+                                    <a class="d-flex align-items-center pt-2 pb-2" href="#">
+                                        <img class="mr-2" src="images/pdf.svg" alt="">
+                                        <div class="">Channuoigiasuc.pdf</div>
+                                    </a>
+                                </li>
+                                <li class="pt-1 pb-1 internal-bar__item-form">
+                                    <a class="d-flex align-items-center pt-2 pb-2" href="#">
+                                        <img class="mr-2" src="images/pdf.svg" alt="">
+                                        <div class="">Channuoigiasuc.pdf</div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="btn-blue" href="#">Xem tất cả</a>
+                        </div>
+
+                    </div>
+
+                    <div class="internal-bar">
+                        <h2 class="internal-bar__title">
+                            <img src="images/ic_list_white_24px.svg" alt="">DANH SÁCH NHÂN VIÊN</h2>
+                        <div class="internal-bar__content">
+                            <div class="mb-3 internal-bar__des">Gợi ý các nhân viên bạn muốn xem</div>
+                            <ul>
+                                <li class="pt-1 pb-1 internal-bar__item-staff">
+                                    <a class="d-flex align-items-center p-2" href="#">
+                                        <img class="mr-2" src="images/dcb.png" alt="">
+                                        <div class="">GĐ. Đỗ Xuân Phúc</div>
+                                    </a>
+                                </li>
+                                <li class="pt-1 pb-1 internal-bar__item-staff">
+                                    <a class="d-flex align-items-center p-2" href="#">
+                                        <img class="mr-2" src="images/lbc.png" alt="">
+                                        <div class="">PGĐ. Trương Tấn Nam</div>
+                                    </a>
+                                </li>
+                                <li class="pt-1 pb-1 internal-bar__item-staff">
+                                    <a class="d-flex align-items-center p-2" href="#">
+                                        <img class="mr-2" src="images/dcb.png" alt="">
+                                        <div class="">GĐ. Đỗ Xuân Phúc</div>
+                                    </a>
+                                </li>
+                                <li class="pt-1 pb-1 internal-bar__item-staff">
+                                    <a class="d-flex align-items-center p-2" href="#">
+                                        <img class="mr-2" src="images/lbc.png" alt="">
+                                        <div class="">PGĐ. Trương Tấn Nam</div>
+                                    </a>
+                                </li>
+                                <li class="pt-1 pb-1 internal-bar__item-staff">
+                                    <a class="d-flex align-items-center p-2" href="#">
+                                        <img class="mr-2" src="images/lbc.png" alt="">
+                                        <div class="">PGĐ. Trương Tấn Nam</div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="btn-blue" href="#">Xem tất cả</a>
+                        </div>
+                    </div>
+                    <!-- End internal bar -->
+                </div>
+            </div>
+        </div>
+    </main>
+    @include('../layouts/footer.html')
+</div>
+@include('../layouts/foot.html')

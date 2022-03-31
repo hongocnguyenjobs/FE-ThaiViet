@@ -1,0 +1,41 @@
+.banner {
+    &__bg {
+        height: 500px;
+        &--lg {
+            height: 700px;
+            background-image: linear-gradient(90deg, #F8F8F8 15%, rgba(248,248,248,0.00) 70%);
+        }
+    }
+    &__title {
+        font-family: Montserrat-Bold;
+        font-size: sz(60);
+        color: #FFFFFF;
+        &--lg {
+            color: #0293DE;
+        }
+    }
+    &__text {
+        font-family: Montserrat-Medium;
+        font-size: sz(24);
+        color: #FFFFFF;
+        &--lg {
+            color: #0293DE;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .banner {
+        &__bg {
+            &--lg {
+                height: 500px;
+            }
+        }
+        &__title {
+            font-size: sz(36);
+        }
+        &__text {
+            font-size: sz(18);
+        }
+    }
+}

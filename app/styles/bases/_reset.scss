@@ -1,0 +1,48 @@
+/* Set style default to elements */
+
+body {
+    font-family: Montserrat-Regular;
+    color: #212121;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:link {
+    transition: all 0.3s;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: transparent;
+    transition: all 0.3s;
+    cursor: pointer;
+    &:focus {
+        outline: none;
+    }
+}
+
+input,
+textarea,
+select {
+    border: none;
+    transition: all 0.3s;
+    &::-webkit-input-placeholder {}
+    &::-moz-placeholder {}
+    &:-ms-input-placeholder {}
+    &:focus {
+        outline: none;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 16px;
+    background: #0293DE;
+}

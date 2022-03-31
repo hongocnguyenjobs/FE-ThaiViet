@@ -1,0 +1,115 @@
+.header {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
+    &__logo {
+        position: relative;
+        z-index: 1;
+        img {
+            max-width: 228px;
+            max-height: 70px;
+        }
+    }
+    &__login {
+        padding: 9px 18px;
+        border: 1px solid #E3E3E3;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.05);
+        font-family: Montserrat-Medium;
+        font-size: sz(13);
+        color: #212121;
+        &:hover {
+            border-color: #0293DE;
+        }
+    }
+    &__lan {
+        margin-left: 15px;
+        img {
+            max-width: 22px;
+            max-height: 18px;
+        }
+    }
+    .nav-item {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .nav-link {
+        font-family: Montserrat-Medium;
+        color: #212121;
+        &:hover {
+            color: #0293DE;
+        }
+    }
+    .navbar-toggler {
+        border: 1px solid #eaeaea;
+    }
+    &__avata {
+        cursor: pointer;
+        img {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+        }
+        .dropdown-menu {
+            top: 66px !important;
+            left: -62px !important;
+            transform: none !important;
+        }
+    }
+    &__noti {
+        .dropdown-menu {
+            width: 345px;
+            top: 66px !important;
+            left: -150px !important;
+            transform: none !important;
+        }
+    }
+    &__noti-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 36px;
+        cursor: pointer;
+    }
+    &__noti-st {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -4px;
+        right: -6px;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        font-family: Montserrat-Medium;
+        font-size: sz(14);
+        color: #FFFFFF;
+        background: #CF142B;
+    }
+}
+
+.noti {
+    &__item {
+        border-bottom: 1px solid #E6E6E6;
+    }
+    &__ava {
+        width: 46px;
+        min-width: 46px;
+        height: 46px;
+    }
+    &__user {
+        font-family: Montserrat-Medium;
+        color: #212121;
+    }
+    &__content {
+        font-size: 13px;
+        color: #212121;
+    }
+    &__time {
+        font-size: 13px;
+        color: #A2A5A9;
+    }
+    &__more {
+        font-size: 13px;
+        line-height: 1;
+        color: #0193DE;
+    }
+}

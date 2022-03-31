@@ -1,0 +1,54 @@
+@include('../layouts//head.html')
+<div class="wrapper">
+    @include('../layouts/header.html')
+    <main>
+        <!-- Begin product detail -->
+        <section class="product-detail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 text-center">
+                        <img class="mw-100" src="images/bb3.png" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="mb-3 product-detail__code">HD41</h2>
+                        <h2 class="product-detail__title">HỖN HỢP CHO GÀ ĐẺ</h2>
+                        <p class="product-detail__text">Từ 18 tuần - loại</p>
+                        <div class="mb-4 pt-2 line-grey"></div>
+                        <p class="text-uppercase product-detail__text">THÀNH PHẦN DINH DƯỠNg</p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul>
+                                    <li>Đạm tối thiểu (%) :17,5</li>
+                                    <li>Béo tối thiểu (%) : 2,5</li>
+                                    <li>Canxi (%) : 3,2 - 3,8</li>
+                                    <li>P tối thiểu (%) : 0,6</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <ul>
+                                    <li>Độ ẩm tối đa (%) :13,0</li>
+                                    <li>Xơ tối đa (%) : 5,0</li>
+                                    <li>Muối (%) : 0,2 - 0,5</li>
+                                    <li>Enramycin (mg/kg) : 8</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>Năng lượng trao đổi (ME) tối thiểu (kcal/kg) : 2750 Hooc môn hoặc khoáng hooc môn : không có</p>
+                        <p class="product-detail__text">THÀNH PHẦN CHÍNH</p>
+                        <p>Bột cá, khô đậu tương, tấm, cám gạo, bắp, cám mì, các axit amin và khoáng chất cần thiết. Không hooc
+                            môn.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End product detail -->
+
+        @include('../layouts/product-one.html')
+
+        <div class="product-detail-partner">
+            @include('../layouts/partner.html')
+        </div>
+    </main>
+    @include('../layouts/footer.html')
+</div>
+@include('../layouts/foot.html')

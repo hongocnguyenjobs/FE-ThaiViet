@@ -1,0 +1,48 @@
+.posting {
+    margin-bottom: 30px;
+    border: 1px solid #E8E8E8;
+    border-radius: 4px;
+    background: #FFFFFF;
+    &__ta {
+        display: block;
+        width: 100%;
+        padding: 24px 30px;
+        border-bottom: 1px solid #EAEAEA;
+        font-size: sz(16);
+        color: #31475E;
+        &::-webkit-input-placeholder {
+            color: #A2A5A9;
+        }
+        &::-moz-placeholder {
+            color: #A2A5A9;
+        }
+        &:-ms-input-placeholder {
+            color: #A2A5A9;
+        }
+    }
+    &__action {
+        padding: 10px 15px;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__upload {
+        margin-bottom: 0;
+        padding: 10px 15px;
+        color: #A2A5A9;
+        transition: all 0.3s;
+        cursor: pointer;
+        img {
+            margin-right: 15px;
+            vertical-align: text-top;
+        }
+        &:hover {
+            color: #F5A623;
+        }
+    }
+    .btn-blue {
+        padding: 10px 20px;
+        font-family: Montserrat-Regular;
+    }
+}

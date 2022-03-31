@@ -1,0 +1,45 @@
+@include('../layouts//head.html')
+<div class="wrapper">
+    @include('../layouts/header.html')
+    <main>
+        <!-- Begin banner -->
+        <section class="banner" style="background:url(images/b2.png) center center / cover">
+            <div class="banner__bg--lg d-flex align-items-center">
+                <div class="container">
+                    <h1 class="mb-4 banner__title banner__title--lg">THÁI VIỆT SWINE LINE</h1>
+                    <div class="mb-4 banner__text banner__text--lg">Chuyên sản xuất thực phẩm theo
+                        <br>mô hình khép kín</div>
+                    <a class="btn-white" href="#">XEM CHI TIẾT</a>
+                </div>
+            </div>
+        </section>
+        <!-- End banner -->
+
+        <!-- Begin info -->
+        <section class="info">
+            <div class="row">
+                <div class="col-lg-6 pr-0 pl-0">
+                    <div class="zoom-outer">
+                        <div class="jsSetRate-7-5 zoom-inner" style="background:url(images/b3.png) center center / cover"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 info__bg">
+                    <div class="d-flex flex-column justify-content-center align-items-center align-items-lg-start h-100 pt-5 pb-5 mr-lg-4 ml-lg-4 mr-xl-5 ml-xl-5 pr-xl-5 text-center text-lg-left">
+                        <h2 class="mb-4 info__title">GIỚI THIỆU VỀ CÔNG TY</h2>
+                        <div class="mb-3 info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</div>
+                        <div class="mb-3 info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam.</div>
+                        <a class="mt-3 btn-white" href="#">XEM CHI TIẾT</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End info -->
+
+        @include('../layouts/partner.html')
+    </main>
+    @include('../layouts/footer.html')
+</div>
+@include('../layouts/foot.html')

@@ -1,0 +1,97 @@
+.comment {
+    &__head {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #F4F4F4;
+        font-size: sz(15);
+        color: #3F4549;
+        font-family: Montserrat-Medium;
+        span {
+            display: inline-block;
+            position: relative;
+            bottom: -1px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #88C338;
+        }
+    }
+    &__avata {
+        @extend .post__avata;
+        margin-top: 1px;
+        margin-right: 14px;
+        &--small {
+            width: 36px;
+            min-width: 36px;
+            height: 36px;
+            margin-top: 6px;
+        }
+    }
+    &__input {
+        width: 100%;
+        min-height: 48px;
+        padding: 11px 20px;
+        border: 1px solid #F4F4F4;
+        font-family: Montserrat-Light;
+        font-size: sz(15);
+        color: #31475E;
+        &::-webkit-input-placeholder {
+            color: rgba(0, 39, 59, 0.35);
+        }
+        &::-moz-placeholder {
+            color: rgba(0, 39, 59, 0.35);
+        }
+        &:-ms-input-placeholder {
+            color: rgba(0, 39, 59, 0.35);
+        }
+    }
+    &__uname {
+        @extend .post__uname;
+        font-size: sz(14);
+    }
+    &__time {
+        @extend .post__time;
+    }
+    &__content {
+        font-size: sz(14);
+        color: #3F4549;
+    }
+    &__reply {
+        display: inline-block;
+        margin-bottom: 16px;
+        font-size: sz(14);
+        color: #0081E4;
+        img {
+            margin-right: 8px;
+            vertical-align: -4px;
+        }
+    }
+    &__item {
+        .control {
+            visibility: hidden;
+            &.show {
+                visibility: visible;
+            }
+        }
+        &:hover {
+            .control {
+                visibility: visible;
+            }
+        }
+        &--lv1 {
+            padding-top: 16px;
+        }
+        &--lv2 {
+            margin-left: 60px;
+            padding-left: 16px;
+            border-left: 2px solid #E8E8E8;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .comment {
+        &__item {
+            &--lv2 {
+                margin-left: 0;
+            }
+        }
+    }
+}

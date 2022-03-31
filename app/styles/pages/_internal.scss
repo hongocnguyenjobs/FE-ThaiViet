@@ -1,0 +1,106 @@
+.internal-time-line {
+    position: relative;
+    top: -115px;
+    // height: 1128px;
+    margin-bottom: -115px;
+    padding: 30px;
+    box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.07);
+    background: #F7F7F7;
+}
+
+.internal-bar {
+    margin-bottom: 24px;
+    box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.07);
+    background: #FFFFFF;
+    &__title {
+        padding: 20px;
+        border-bottom: 1px solid #F0F0F0;
+        font-family: Montserrat-Medium;
+        font-size: sz(16);
+        line-height: 1.4;
+        img {
+            width: 20px;
+            margin-right: 12px;
+            vertical-align: text-bottom;
+        }
+    }
+    &__content {
+        padding: 20px;
+    }
+    &__des {
+        font-size: sz(13);
+        color: #A2A5A9;
+    }
+    ul {
+        padding-left: 0;
+        list-style: none;
+    }
+    &__item-form {
+        border-bottom: 1px solid #F0F0F0;
+        &:last-child {
+            border-bottom: none;
+        }
+        a {
+            font-size: sz(14);
+            color: #212121;
+        }
+        &:hover {
+            a {
+                color: #0293DE;
+            }
+        }
+    }
+    &__item-staff {
+        a {
+            border: 1px solid #E8E8E8;
+            border-radius: 3px;
+            font-family: Montserrat-Medium;
+            font-size: 13px;
+            color: #212121;
+        }
+        img {
+            width: 36px;
+            height: 36px;
+        }
+        &:hover {
+            a {
+                border-color: rgba(#0293DE, 0.5);
+                color: #0293DE;
+            }
+        }
+    }
+    .btn-blue {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: Montserrat-Regular;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .internal {
+        .col-xl-72 {
+            -ms-flex: 0 0 72%;
+            flex: 0 0 72%;
+            max-width: 72%;
+        }
+        .col-xl-28 {
+            -ms-flex: 0 0 28%;
+            flex: 0 0 28%;
+            max-width: 28%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .internal-time-line  {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .internal-time-line  {
+        padding: 10px;
+    }
+}

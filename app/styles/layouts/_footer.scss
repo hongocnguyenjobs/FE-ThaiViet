@@ -1,0 +1,32 @@
+.footer {
+    &__bg {
+        background: rgba(#0293DE, 0.7)
+    }
+    &__text {
+        font-size: sz(13);
+        color: #fff;
+    }
+    &__title {
+        @extend .footer__text;
+        font-family: Montserrat-Medium;
+        text-transform: uppercase;
+        &~a {
+            &:hover {
+                text-decoration: underline;
+                color: #fff;
+            }
+        }
+    }
+    &__social {
+        img {
+            width: 30px;
+            margin-right: 15px;
+        }
+    }
+    &__author {
+        img {
+            max-width: 75px;
+            max-height: 25px;
+        }
+    }
+}

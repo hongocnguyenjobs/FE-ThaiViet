@@ -1,0 +1,9 @@
+/* Line clamp */
+
+@mixin excerpt($lines-to-show) {
+    display: -webkit-box;
+    -webkit-line-clamp: $lines-to-show;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,24 @@
+.control {
+    button {
+        position: absolute;
+        right: -12px;
+        opacity: 0.3;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+    img {
+        width: 32px;
+        height: 32px;
+    }
+    .dropdown-menu {
+        width: 120px;
+        min-width: 120px;
+        border: 1px solid rgba(#000, 0.05);
+        border-radius: 0;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.17);
+    }
+    .dropdown-item {
+        font-size: sz(13);
+    }
+}

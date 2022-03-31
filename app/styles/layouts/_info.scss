@@ -1,0 +1,23 @@
+.info {
+    padding-right: 15px;
+    padding-left: 15px;
+    &__bg {
+        background: #0293DE;
+        border: 1px solid #979797;
+    }
+    &__title {
+        font-family: Montserrat-Bold;
+        font-size: sz(32);
+        text-transform: uppercase;
+        color: #FAFAFA;
+    }
+    &__text {
+        color: #FAFAFA;
+    }
+    .zoom-outer {
+        height: 100%;
+    }
+    .zoom-inner {
+        min-height: 100%;
+    }
+}

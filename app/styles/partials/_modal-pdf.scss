@@ -1,0 +1,37 @@
+.modal-pdf {
+    &__title {
+        font-family: Montserrat-Medium;
+        font-size: sz(24);
+    }
+    &__des {
+        font-family: Montserrat-Medium;
+        font-size: sz(14);
+        color: #A2A5A9;
+    }
+    &__icon-close {
+        width: 30px;
+        height: 30px;
+    }
+    &__download {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -13px;
+        right: -15px;
+        width: 125px;
+        height: 42px;
+        border: 1px solid #E8E8E8;
+        font-size: sz(15);
+        background: #FFFFFF;
+        img {
+            margin-right: 12px;
+        }
+    }
+    .modal-body {
+        background: #EFEFEF;
+    }
+    object {
+        height: 100vh;
+    }
+}

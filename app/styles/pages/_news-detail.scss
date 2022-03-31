@@ -1,0 +1,21 @@
+.news-detail {
+    &__title1 {
+        font-family: Montserrat-Bold;
+        font-size: sz(36);
+        line-height: 1.5;
+        color: #212121;
+    }
+    &__title2 {
+        font-family: Montserrat-Bold;
+        font-size: sz(24);
+        color: #0081E4;
+    }
+}
+
+@media (max-width: 575px) {
+    .news-detail {
+        &__title1 {
+            font-size: sz(24);
+        }
+    }
+}
